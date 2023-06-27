@@ -1,0 +1,107 @@
+/* Write your CSS here */
+.login-button {
+  color: #303150;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8fafc;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 230px;
+  margin-left: 46px;
+  margin-top: 15px;
+}
+.input-container {
+  display: flex;
+
+  background-color: beige;
+  margin: 10px;
+  border-radius: 2px;
+  width: 290px;
+}
+.input-text {
+  border: none;
+  outline: none;
+  border-left: 1px solid rgb(134, 130, 130);
+  height: 36px;
+  background-color: transparent;
+  padding: 5px;
+  width: 250px;
+}
+.icon {
+  margin: 7px;
+  color: rgb(100, 88, 88);
+  font-size: 22px;
+}
+a {
+  font-size: 13px;
+  color: rgb(115, 214, 181);
+  margin-bottom: 30px;
+}
+a:active {
+  color: rgb(241, 0, 0);
+}
+.check-div {
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+#check {
+  height: 13px;
+  margin-right: 7px;
+}
+.error {
+  color: red;
+  text-align: center;
+  font-size: 12px;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #434346;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 400px;
+  border-radius: 12px;
+  background-color: rgb(39, 37, 37);
+}
+.down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a {
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+.logout-button {
+  color: #303150;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8fafc;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 130px;
+}
+.login-button:hover {
+  background-color: #51e0d9;
+}
+.logout-button:hover {
+  background-color: #f81717;
+  color: white;
+}
